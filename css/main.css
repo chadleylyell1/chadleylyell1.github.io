@@ -1,0 +1,152 @@
+/*Fonts:
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Baloo Da', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Yatra One', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Fruktur', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Amatica SC', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Ravi Prakash', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'VT323', monospace;
+*/
+body {
+
+	background-color: #00AA8E;
+}
+
+#me {
+	display: inline-block;
+	max-width: 150px;
+  margin: 0 auto 0;
+  border-radius: 50%;
+  display: inline;
+}
+
+#about-me-wrap {
+	background-color: #fff;
+	padding: 50px;
+	width: 60%;
+	margin: 100px auto;
+}
+
+#contact {
+		font-size: 18px;
+	}
+
+#bio {
+
+	color: #4B0082;
+	font-family: monoton, sans-serif;
+	font-size: 25px;
+}
+
+footer {
+	color: #a19e9e;
+	clear: both;
+	list-style-type: none;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+#profile-wrap {
+	width: 40%;
+	margin-right: 10%;
+	float: left;
+}
+
+#bio-wrap {
+		width: 50%;
+		float: right;
+}
+
+h2 {
+
+	font-family: londrina-sketch, sans-serif;
+	border-bottom: 3px solid #0000ff;
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: #0000FF;
+}
+
+h1 {
+	font-family: gochi-hand, sans-serif;
+	font-size: 35px;
+	color: #FF0000;
+}
+
+ul.profile-social-links {
+	padding: 0;
+}
+
+ul.profile-social-links li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+	font-size: 45px;
+}
+
+@media only screen and (max-width: 767px) {
+	width:100%!important
+	float: none !important
+	margin-right: 0!important
+}
+
+	#bio-wrap {
+		width: 100%!important
+		float: none;
+		margin-top: 50px!important
+	}
+
+#apple {
+  font-size: 30px;
+  display: inline-block;
+  max-width: 100px;
+}
+
+a{
+	text-decoration: none;
+	color: #800080;	
+}
+
+a:visited {
+	text-decoration: none;	
+	color: #800080;
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+	}
+	
+li {
+	font-size: 45px;
+	text-decoration-style: none;
+	}
+
+#app {
+	font-size: 30px;
+}
