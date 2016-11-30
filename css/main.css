@@ -2081,3 +2081,49 @@ font-size: 25px;
   font-size: 18px;
   color: #9c27b0!important;
 }
+
+
+
+
+
+/*
+SOCIAL ICONS
+*/
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.featured {
+			color: #8323c9;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icon.featured:before {
+				font-size: 6em;
+			}
+			
+			.fa.fa-code {
+				font-size: 6em;
+				color: #8323c9;
+			}
