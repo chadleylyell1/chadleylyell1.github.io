@@ -434,7 +434,7 @@
 
 				<div class="contact__spacer">&nbsp;</div>
 
-				<form class="contact__form">
+				<form class="contact__form" action="php/contact_form.php" method="post">
 
 					<div class="contact__textarea-wrapper">
 						<label for="message_content" class="contact__label">Message</label>
@@ -466,7 +466,7 @@
 								<div class="contact__response-title"><i class="fa fa-warning"></i> Error.</div>
 								<div class="contact__response-description  contact__response-description--error">Message couldn't be sent.</div>
 							</div>
-							<input id="contact__submit" type="button" value=" ">
+							<input id="contact__submit" type="submit" value=" ">
 						</div>
 					</div>
 				</form>
