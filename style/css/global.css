@@ -1100,8 +1100,8 @@ Site sections
 \*------------------------------------*/
 .features {
   background-color: rgba(59, 62, 82, 0.99);
-  background-image: -webkit-linear-gradient(top right, #f5222280, #f00 2100px)
-  background-image: linear-gradient(to bottom left, #f5222280, #f00 2100px)
+  background-image: -webkit-linear-gradient(top right, #354b15, #1b5752 2100px);
+  background-image: linear-gradient(to bottom left, #354b15, #1b5752 2100px);
   position: relative;
   overflow: hidden;
 }
